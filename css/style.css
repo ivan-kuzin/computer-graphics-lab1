@@ -1,0 +1,38 @@
+body{
+  font-family: Verdana;
+}
+
+.draw-figure, .clear-canvas, .move-left, .move-right, .move-top, .move-bottom, .turn-left, .turn-right, .scale-minus, .scale-plus, .tab, .example-1, .example-2, .example-3 {
+    width: 120px;
+    padding: 10px;
+    text-transform: uppercase;
+    background-color: #ED7C7C;
+    cursor: pointer;
+    margin-bottom: 10px;
+    text-align: center;
+    color:  white;
+}
+
+.example-1, .example-2, .example-3 {
+    display: inline-block;
+}
+
+.work-area {
+    width: 750px;
+}
+
+.toolbar {
+    width: 150px;
+}
+
+input[type="number"] {
+    width: 100px;
+    padding: 5px;
+    margin: 0 0 10px 10px;
+}
+
+.work-flow{
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+}

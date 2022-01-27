@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>LAB 1</title>
+</head>
+<body>
+    <div class="work-flow">
+
+        <div class="toolbar">
+            <div class="move">
+                <form action="">
+                    <input type="number" id="move-value" name="shift" value="10">
+                </form>
+                <div class="move-left">Двигать влево</div>
+                <div class="move-right">Двигать вправо</div>
+                <div class="move-top">Двигать вверх</div>
+                <div class="move-bottom">Двигать вниз</div>
+            </div>
+            <div class="turn">
+                <div class="turn-left">Поворот влево</div>
+                <div class="turn-right">Поворот вправо</div>
+            </div>
+            <div class="scaling">
+                <form action="">
+                    <input type="number" id="scale-value" name="scale" value="1.1" step="0.1">
+                </form>
+                <div class="scale-plus">Увеличение</div>
+                <div class="scale-minus">Уменьшение</div>
+            </div>
+            <div class="tab">tab</div>
+        </div>
+
+        <div class="work-area">
+            <canvas id="myCanvas" width="600" height="600" style="border: 1px solid black;"></canvas>
+            <div class="test">
+                <div class="example-1">Пример 1</div>
+                <div class="example-2">Пример 2</div>
+                <div class="example-3">Пример 3</div>
+            </div>
+        </div>
+
+    </div>
+    <script src="js/main.js"></script> 
+</body>
+</html>
